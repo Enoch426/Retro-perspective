@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-class Header extends React.Component {
+class ShowPage extends React.Component {
 
 
   render() {
@@ -54,4 +54,4 @@ class Header extends React.Component {
     )
   }
 }
-export default Header;
+export default ShowPage;

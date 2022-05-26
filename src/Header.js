@@ -1,13 +1,14 @@
 import React from 'react';
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import ShowPage from './ShowPage';
 
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-//   Link
-// } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
 
 
 class Header extends React.Component {
@@ -16,7 +17,7 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        {/* <Router> */}
+        <Router>
           <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div className="container px-4 px-lg-5">
   {/* <Link to='/Home'>*/}<a className="navbar-brand" href="#page-top">Home</a>{/*</Link>*/} 
@@ -26,7 +27,7 @@ class Header extends React.Component {
       </button>
       <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto">
-          {/* <Link to='/shows'> */} <li className="nav-item"><a class="nav-link" href="#about">Shows</a></li>{/*</Link>*/}
+          <Link to='/shows'> <li className="nav-item"><a class="nav-link" href="#about">Shows</a></li></Link>
           {/*<Link to='/games'>*/}<li className="nav-item"><a class="nav-link" href="#projects">Games</a></li>{/*</Link>*/}
            {/*<Link to='/more'>*/}<li className="nav-item"><a class="nav-link" href="#signup">Comics</a></li>{/*</Link>*/}
           </ul>
@@ -48,16 +49,16 @@ class Header extends React.Component {
   </div>
  </nav>
 
-          {/* <Routes>
+           <Routes>
 
-          <Route path="/shows" element={<Home />} />
+          <Route path="/shows" element={<ShowPage/>} />
 
-          <Route path="/games" element={<About />} /> 
+          {/* <Route path="/games" element={<About />} /> 
 
-          <Route path="/more" element={<Contact />} />
+          <Route path="/more" element={<Contact />} /> */}
 
           </Routes>
- </Router> */}
+ </Router> 
  
         
         
