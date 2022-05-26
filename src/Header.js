@@ -2,27 +2,35 @@ import React from 'react';
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+//   Link
+// } from 'react-router-dom';
+
+
 class Header extends React.Component {
 
 
   render() {
     return (
       <div>
+        {/* <Router> */}
           <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div className="container px-4 px-lg-5">
-      <a className="navbar-brand" href="#page-top">Home Books</a>
+  {/* <Link to='/Home'>*/}<a className="navbar-brand" href="#page-top">Home</a>{/*</Link>*/} 
       <button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i className="fas fa-bars"></i>
       </button>
       <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto">
-              <li className="nav-item"><a class="nav-link" href="#about">Products</a></li>
-              <li className="nav-item"><a class="nav-link" href="#projects">Story</a></li>
-              <li className="nav-item"><a class="nav-link" href="#signup">Delivery</a></li>
-              <li className="nav-item"><a class="nav-link" href="#FAQ">FAQ</a></li>
+          {/* <Link to='/shows'> */} <li className="nav-item"><a class="nav-link" href="#about">Shows</a></li>{/*</Link>*/}
+          {/*<Link to='/games'>*/}<li className="nav-item"><a class="nav-link" href="#projects">Games</a></li>{/*</Link>*/}
+           {/*<Link to='/more'>*/}<li className="nav-item"><a class="nav-link" href="#signup">Comics</a></li>{/*</Link>*/}
           </ul>
-              
+          
 
           
 
@@ -40,6 +48,16 @@ class Header extends React.Component {
   </div>
  </nav>
 
+          {/* <Routes>
+
+          <Route path="/shows" element={<Home />} />
+
+          <Route path="/games" element={<About />} /> 
+
+          <Route path="/more" element={<Contact />} />
+
+          </Routes>
+ </Router> */}
  
         
         
