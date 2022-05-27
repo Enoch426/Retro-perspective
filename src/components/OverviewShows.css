@@ -1,9 +1,19 @@
-
-.box {
+.body{
+    background: black;
     font-family: ariel;
     font-size: 16px;
+
+
+}
+.title {
+    font-size: 40px;
+    padding-top: 1em;
+    text-align: center;
+    color: white;
+}
+
+.box {
     margin: 0;
-    background: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -12,10 +22,28 @@
 
 }
 
-.title {
-    font-size: 20px;
-    color: white;
+.viewMore {
+    
+        color: #fff;
+        background: black;
+        display: inline-block;
+        padding: 10px 25px;
+        text-decoration: none;
+        border-radius: 5px;
+        transform: translateY(15px);
+        
+        transition: all 0.3s ease-out 0.4s;
+    
 }
+    
+    .viewMore:hover{
+        background: rgb(114, 125, 230);
+        opacity: 1;
+        transform: translateY(0px);
+    
+    
+    }
+
 
 img {
     max-width: 100%;

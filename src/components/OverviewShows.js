@@ -8,10 +8,10 @@ import Box from "./Box";
 class OverviewShows extends React.Component {
     render() {
       return (
-        <div>
+        <div className="body">
+          <p className="title">Live Shows</p>
             <div className="box">
 
-                <p className="title">{this.props.Title}</p>
                <Box
                showimage="https://www.tvguide.com/a/img/catalog/provider/1/1/1-9006171376.jpg"
                showName="Friends"
@@ -61,7 +61,7 @@ class OverviewShows extends React.Component {
 
             </div>
         
-          
+            <a href={this.props.showView} className="viewMore">View More</a>
         </div>
       )
     }
