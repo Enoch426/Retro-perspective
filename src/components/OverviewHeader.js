@@ -1,35 +1,55 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import bootstrap from 'bootstrap'
+import bootstrap from 'bootstrap';
+import {Carousel} from 'react-bootstrap';
+import './OverviewHeader.css';
+
 
 
 
 class OverviewHeader extends React.Component {
     render() {
   return (
-    <div>
-        <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active" data-interval="5000">
-      <img src="https://www.fbcoverlover.com/maker/covers-images/download/friends-2-Facebook-Covers-FBcoverlover-facebook-cover.jpg" className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item" data-interval="5000">
-      <img src="https://www.hellomagazine.com/imagenes/film/20220215133198/fresh-prince-of-bel-air-cast-where-are-they-now-details/0-648-143/fresh-prince-bel-air-t.jpg" class="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2018%2F08%2Ftcdthse_ec024_h-2000.jpg" class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="sr-only">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="sr-only">Next</span>
-  </button>
-</div>
-      
+    <div className={this.props.divclass}>
+  
+
+<Carousel fade>
+  <Carousel.Item interval={2500}>
+    <img
+      className="d-block w-100"
+      src={this.props.image1}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>{this.props.description1}</h3>
+      {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+    </Carousel.Caption>
+  </Carousel.Item >
+  <Carousel.Item interval={2500}>
+    <img
+      className="d-block w-100"
+      src={this.props.image2}
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3>{this.props.description2}</h3>
+      {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={2500}>
+    <img
+      className="d-block w-100"
+      src={this.props.image3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>{this.props.description3}</h3>
+      {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
             
       
     </div>
