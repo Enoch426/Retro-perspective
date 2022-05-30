@@ -30,16 +30,16 @@
         padding: 10px 25px;
         text-decoration: none;
         border-radius: 5px;
-        transform: translateY(15px);
         
-        transition: all 0.3s ease-out 0.4s;
+        
+        transition: all 0.2s ease-out 0.1s;
     
 }
     
     .viewMore:hover{
         background: rgb(114, 125, 230);
         opacity: 1;
-        transform: translateY(0px);
+        transform: translateY(-9px);
     
     
     }

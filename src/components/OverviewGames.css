@@ -1,0 +1,127 @@
+.boarder {
+    border: solid white 1px;
+    border-radius: 30px;
+    padding: 2em;
+
+    transition: all 0.9s ease-out 0.01s;
+}
+
+.secondborder {
+    border-radius: 30px;
+    padding-bottom: 1em;
+    transition: all 0.2s ease-out 0.01s;
+
+
+}
+
+.secondborder:hover {
+/* transform: translateY(-19px); */
+
+
+}
+
+ .boarder:hover{
+    box-shadow:0 0 10px 3px rgb(255, 255, 255);
+    margin-right: 1em;
+    margin-left: 1em;
+    transform: translateY(-19px);
+
+    
+
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.firstCard {
+    height: 16em;
+    margin-top: 19em;
+    margin-right: 3em;
+    transition: all 0.2s ease-out 0.1s;
+
+
+}
+
+.firstCard:hover {
+transform: translateY(-9px);
+transform: translateX(-6px);
+background: rgb(0, 0, 0);
+color: white;
+box-shadow:0 0 10px 3px rgb(198, 0, 224);
+}
+
+.firstImage {
+    height: 13em;
+    width: 23em;
+}
+
+.backgroundGames {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/024/538/828/original/pixel-jeff-clipc-s.gif");
+    background-size: cover;
+    height: 95vh;
+    padding-top: 2em;
+
+}
+
+.secondFlex {
+  width: 545px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-left: 8em;
+ 
+}
+
+.smallImages {
+    height: 10em;
+    width: auto;
+}
+
+.smallCards {
+    height: 13em;
+    width: 11em;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: all 0.3s ease-out 0.01s;
+
+
+}
+
+.smallCards:hover{
+transform: translateY(-9px);
+background: rgb(0, 0, 0);
+color: white;
+box-shadow:0 0 10px 3px #fff;
+
+
+
+}
+
+.smallText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.textdiv{
+    font-family: Didot, serif;
+    color: white;
+    height: 100px;
+    width: 600px;
+    transform: translateY(5em);
+    margin-left: 6em;
+    border: 1px solid #c3c3c3;
+    text-align: left;
+}
+
+.gameTitle {
+    font-size: 4em;
+}
+
+.ptag {
+    font-size: 13px;
+  }
