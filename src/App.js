@@ -5,6 +5,7 @@ import OverviewShows from './components/OverviewShows';
 import OverviewAnime from './components/OverviewAnime';
 import OverviewHeader from './components/OverviewHeader';
 import 'bootstrap/dist/css/bootstrap.css';
+import OverviewGames from './components/OverviewGames';
 
 
 
@@ -33,7 +34,7 @@ function App() {
       description3='Cowboy Bebop'
       />
       <OverviewAnime/>
-      
+      <OverviewGames/>
 
 
       
