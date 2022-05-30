@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import ShowPage from './ShowPage';
+// import ShowPage from './ShowPage';
 
 import {
   BrowserRouter as Router,
@@ -9,6 +9,8 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import OverviewGames from './components/OverviewGames';
+import Home from './pages/Home';
 
 
 class Header extends React.Component {
@@ -20,7 +22,7 @@ class Header extends React.Component {
         <Router>
           <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div className="container px-4 px-lg-5">
-  {/* <Link to='/Home'>*/}<a className="navbar-brand" href="#page-top">Home</a>{/*</Link>*/} 
+   <Link to='/'><a className="navbar-brand" href="#page-top">Home</a></Link> 
       <button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i className="fas fa-bars"></i>
@@ -50,8 +52,10 @@ class Header extends React.Component {
  </nav>
 
            <Routes>
+          
+           <Route path="/" element={<Home />} />
 
-          <Route path="/shows" element={<ShowPage/>} />
+          <Route path="/shows" element={<OverviewGames/>} />
 
           {/* <Route path="/games" element={<About />} /> 
 
