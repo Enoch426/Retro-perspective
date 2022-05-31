@@ -14,7 +14,9 @@ class Home extends React.Component {
   return (
     <div>
      
-      <MainHeader/>
+      <MainHeader
+      backgroundimgclass="blocker"
+      />
       <OverviewHeader
       divclass='black'
       image1='https://www.fbcoverlover.com/maker/covers-images/download/friends-2-Facebook-Covers-FBcoverlover-facebook-cover.jpg'
