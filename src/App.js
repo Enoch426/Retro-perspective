@@ -6,6 +6,7 @@ import Header from './Header';
 // import OverviewHeader from './components/OverviewHeader';
 // import 'bootstrap/dist/css/bootstrap.css';
 // import OverviewGames from './components/OverviewGames';
+import Footer from './components/Footer';
 
 
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+       <Footer/>
       
 
 
