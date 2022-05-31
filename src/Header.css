@@ -15,16 +15,30 @@
 
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.904);
+    transition: all 0.5s ease-out 0.01s;
+
   }
+
+  #mainNav .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+
+  }
+
+
   #mainNav .nav-link {
-    transition: none;
+    transition: all 0.5s ease-out 0.01s;
     padding: 2rem 1.5rem;
     color: rgba(0, 0, 0, 0.5); 
     font-family: 'Orbitron', sans-serif;
+    color: rgba(255, 255, 255, 0.986);
+
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+
   }
   #mainNav .nav-link:active {
     color: #fff;
@@ -52,12 +66,7 @@
     border-bottom: 0.25rem solid #64A19D;
   }
 
-  .blocker{
-      height: 100vh;
-      background-image: url("DQB.gif");
-      background-size: cover;
-  }
-
+  
   .flex{
     display: flex;
   }

@@ -1,0 +1,25 @@
+
+  .blocker{
+    height: 100vh;
+    background-image: url("DQB.gif");
+    background-size: cover;
+}
+
+.flex{
+  display: flex;
+}
+
+
+.grid {
+    padding-top: 5em;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/024/538/828/original/pixel-jeff-clipc-s.gif");
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+}
+
+.grid img {
+    height:65vh;
+    width: 100%;
+    
+}
