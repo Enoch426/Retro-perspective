@@ -11,6 +11,7 @@ import {
 } from 'react-router-dom';
 import OverviewGames from './components/OverviewGames';
 import Home from './pages/Home';
+import Games from './pages/Games';
 
 
 class Header extends React.Component {
@@ -30,7 +31,7 @@ class Header extends React.Component {
       <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto">
           <Link to='/shows'> <li className="nav-item"><a class="nav-link" href="#about">Shows</a></li></Link>
-          {/*<Link to='/games'>*/}<li className="nav-item"><a class="nav-link" href="#projects">Games</a></li>{/*</Link>*/}
+          <Link to='/games'><li className="nav-item"><a class="nav-link" href="#projects">Games</a></li></Link>
            {/*<Link to='/more'>*/}<li className="nav-item"><a class="nav-link" href="#signup">Comics</a></li>{/*</Link>*/}
           </ul>
           
@@ -57,9 +58,9 @@ class Header extends React.Component {
 
           <Route path="/shows" element={<OverviewGames/>} />
 
-          {/* <Route path="/games" element={<About />} /> 
+           <Route path="/games" element={<Games />} />
 
-          <Route path="/more" element={<Contact />} /> */}
+          {/* <Route path="/more" element={<Contact />} />  */}
 
           </Routes>
  </Router> 

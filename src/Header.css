@@ -56,12 +56,7 @@
     border-bottom: 0.25rem solid #64A19D;
   }
 
-  .blocker{
-      height: 100vh;
-      background-image: url("DQB.gif");
-      background-size: cover;
-  }
-
+  
   .flex{
     display: flex;
   }
