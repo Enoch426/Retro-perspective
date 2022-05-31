@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.footer-box{
+    height: 100%;
+    background-color: #25252F;
+    padding: 20px 20px;
+    border: 1px solid grey;
+    
+}
+
+.footer-icons{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.footer-icons img{
+    margin: 10px;
+    width: 60px;
+    margin-top: -5px;
+    
+}
+
+.Footer-link-names{
+    color: white;
+    padding-top: 10px;
+}
+
+.Footer-link-terms{
+    color: white;
+    margin-top: -15px;
+}
+
+.logo-name{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: -20px;
+    font-size: 2em;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Footer-link-date{
+    color: grey;
+    margin-top: -10px;
+}
