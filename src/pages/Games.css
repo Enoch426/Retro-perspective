@@ -1,0 +1,125 @@
+.gamesGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height:50vh;
+}
+
+
+.text{
+    text-align: center;
+    padding-top: 8em;
+    max-width: 15em;
+    margin-left: 7em;
+}
+
+
+
+.gamesFlex {
+    margin-top: 3.5em;
+    display: flex;
+    flex: wrap;
+    width: 55em;
+    height: 35vh;
+    /* border: solid 1px black; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gamesFlex div img{
+
+    height: 17em;
+    width: 12em;
+}
+
+.gamesFlex div {
+
+    height: 17em;
+    width: 12em;
+    border-radius: 0px;
+}
+.gamesFlex div div h3{
+    margin-right: .5em;
+    padding-top: 4em;
+   font-size: 30px;
+}
+
+.gamesFlex div div p{
+
+    font-size: 10px;
+ }
+
+
+
+
+ .gamesFlex div div a{
+    margin-top: 2em;
+    margin-right: 1em;
+    padding: 8px 20px;
+    font-size: 17px;
+    background-color: rgb(204, 0, 240);
+ }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gamesFlex2 {
+    
+    display: flex;
+    flex: wrap;
+    width: 69em;
+    height: 37vh;
+    /* border: solid 1px black; */
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 16.1em;
+    margin-top: -2em;
+}
+
+.gamesFlex2 div img{
+
+    height: 17em;
+    width: 12em;
+}
+
+.gamesFlex2 div {
+
+    height: 17em;
+    width: 12em;
+    border-radius: 0px;
+}
+.gamesFlex2 div div h3{
+    margin-right: .5em;
+    padding-top: 4em;
+   font-size: 30px;
+}
+
+.gamesFlex2 div div p{
+
+    font-size: 10px;
+ }
+
+
+
+
+ .gamesFlex2 div div a{
+    margin-top: 2em;
+    margin-right: 1em;
+    padding: 8px 20px;
+    font-size: 17px;
+    background-color: rgb(204, 0, 240);
+ }
+ 

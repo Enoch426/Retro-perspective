@@ -17,12 +17,12 @@ class OverviewGames extends React.Component {
             <div className="boarder">
                 <div className="secondborder">
 
-            <div className="textdiv">
-                <h1 className="gameTitle">Explore Retro Games</h1>
-                <p className="smallText"> lorem episum bla bla abljslifo aoifnaodf nodifunaioufn dfoiaofn fn;onf;eon f;ew j;ilj;j;io;f;qioj;rgh;iuhag; ;sig;oif g;gf; gfijg; fg;fsdiojg ;fg; fd;g fd;g fd;jg;f g;fjg;df;gfgujf; g;fig;fd jg;ofdg;oif g;fg; fgjiorjg; rwgo;aoi;  akldfhl;dj f;ajfa; fds;oifhad;of ;dofds;o faoijf;o df;iajf; f;oief;of;onew;nfu;erf ;riof;eornf;eroa;ifberl f</p>
+            {/* <div className="textdiv"> */}
+                <h1 className="gameTitle">Explore Games</h1>
+                {/* <p className="smallText"> </p> */}
             
             
-            </div>
+            {/* </div> */}
 
 
             <div className="flex">
