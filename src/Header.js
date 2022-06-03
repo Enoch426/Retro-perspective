@@ -4,14 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 // import ShowPage from './ShowPage';
 
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
   Link
 } from 'react-router-dom';
-import OverviewGames from './components/OverviewGames';
-import Home from './pages/Home';
-import Games from './pages/Games';
 
 
 class Header extends React.Component {
@@ -20,7 +14,6 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <Router>
           <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div className="container px-4 px-lg-5">
    <Link to='/'><a className="navbar-brand" href="#page-top">Home</a></Link> 
@@ -51,19 +44,6 @@ class Header extends React.Component {
       </div>
   </div>
  </nav>
-
-           <Routes>
-          
-           <Route path="/" element={<Home />} />
-
-          <Route path="/shows" element={<OverviewGames/>} />
-
-           <Route path="/games" element={<Games />} />
-
-          {/* <Route path="/more" element={<Contact />} />  */}
-
-          </Routes>
- </Router> 
  
         
         
