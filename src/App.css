@@ -3,8 +3,108 @@
 
 @media screen and (max-device-width: 400px) {
 
-.Header{ 
-  width: 300px;
+ /* BEGGENNING OF RESPONSIVE HOME PAGE  */
+.blocker {
+  width: 100%;
+  background-position: center;
 }
+
+.black {
+  width: 100%;
+  padding-right: 3em;
+  display: none;
+  
+}
+ .body {
+   width: 100%;
+ }
+ 
+ .body .box {
+   display: block;
+   padding-left: 4em;
+ }
+
+ .ui-card {
+   margin: 1em;
+   border: 1px solid rgba(255, 255, 255, 0.63);
+ }
+ .viewMore{
+   margin-left: 8.5em;
+   background-color: blue;
+ }
+
+ .backgroundGames {
+   height: auto;
+   width: 100%;
+ }
+ .secondborder .flex {
+   display: block;
+ }
+
+ .flex .secondFlex{
+   display: none;
+ }
+
+ /* END OF RESPONSIVE HOME PAGE */
+ 
+
+
+
+
+
+
+
+
+
+ /* BEGGENNING OF RESPONSIVE GAME PAGE */
+
+.grid{
+  display: none !important;
+}
+
+
+ .videoBackground{
+   height: 110em;
+ }
+
+ .gamesGrid{
+   display: block !important;
+ }
+
+ .gamesGrid h1{
+   margin-right: 2em;
+   margin-left: -1em !important;
+ }
+
+ .gamesFlex {
+   display: grid !important;
+   grid-template-columns: 1fr 1fr;
+   padding: em;
+   /* padding-right: 10em !important; */
+   margin-right: 10em;
+   width: 47vh !important;
+   margin-left: -1em !important;
+   
+   
+ }
+
+ .gamesFlex2 {
+  display: grid !important;
+   grid-template-columns: 1fr 1fr;
+   padding: em;
+   /* padding-right: 10em !important; */
+   margin-right: 10em;
+   width: 47vh !important;
+   margin-left: -1em !important;
+   height: auto;
+   /* height: 100em !important; */
+   padding-top: 27em;
+   
+}
+
+/* END OF RESPONSIVE GAME PAGE */
+
+
+
 
 }
