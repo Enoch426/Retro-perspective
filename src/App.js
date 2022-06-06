@@ -30,6 +30,7 @@ import Contra from './GamesPages/Contra';
 import StreetFighter2 from './GamesPages/StreetFighter2';
 import MortalKombat3 from './GamesPages/MortalKombat3';
 import ZeldaMinishCap from './GamesPages/ZeldaMinishCap';
+import ShowPage from './showpages/ShowPage';
 
 
 
@@ -59,6 +60,8 @@ function App() {
             <Route path="/games/mortalKombat3" element={<MortalKombat3/>}/>
             <Route path="/games/legendOfZeldaMinishCap" element={<ZeldaMinishCap/>}/>
 
+
+            <Route path="shows" element={<ShowPage />} />
 
 
 
