@@ -8,21 +8,21 @@ import {
 } from 'react-router-dom'
 
 
-class FeatureTvShow extends React.Component {
+class FeatureLiveTvShows extends React.Component {
  
 
   render() {
     return (
       <div>
         
-        <div> <p className="featured-title"> Anime Shows </p> </div>
+        <div> <p className="featured-title"> {this.props.title1} </p> </div>
 
         <div className='featured-box'>
                 
                 
                 <div>
                     <div className='first-featured-show'>
-                      <Link to="/Anime/DragonBallZ">  <img src="https://i.imgur.com/sae0koy.jpg" alt="" /> </Link>
+                        <img src={this.props.show1} alt="" />
                     </div>
                 </div>
                 
@@ -32,11 +32,11 @@ class FeatureTvShow extends React.Component {
                 <div>
                   <div className='featured-show-row'>
                             <div className='featured-show-box'>
-                                <img src="https://i.imgur.com/Zx1LoTY.png" alt="" />
+                                <img src={this.props.show2} alt="" />
                             </div>
                             
                             <div className='featured-show-box'>
-                                <img src="https://i.imgur.com/if0Di39.png" alt="" />
+                                <img src={this.props.show3} alt="" />
                             </div>
                             
                             
@@ -44,11 +44,11 @@ class FeatureTvShow extends React.Component {
 
                   <div className='featured-show-row'>
                            <div className='featured-show-box'>
-                                <img src="https://i.imgur.com/tFYaGBy.png" alt="" />
+                                <img src={this.props.show4} alt="" />
                             </div>
                             
                             <div className='featured-show-box'>
-                            <img src="https://i.imgur.com/bReosOL.jpg" alt="" />
+                            <img src={this.props.show5} alt="" />
                             </div>
                               
                   </div>    
@@ -71,4 +71,4 @@ class FeatureTvShow extends React.Component {
     )
   }
 }
-export default FeatureTvShow ;
+export default FeatureLiveTvShows  ;

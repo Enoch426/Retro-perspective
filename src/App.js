@@ -31,6 +31,16 @@ import StreetFighter2 from './GamesPages/StreetFighter2';
 import MortalKombat3 from './GamesPages/MortalKombat3';
 import ZeldaMinishCap from './GamesPages/ZeldaMinishCap';
 import ShowPage from './showpages/ShowPage';
+import DragonBallZ from './PageForShows/DragonBallZ';
+import CowboyBebop from './PageForShows/CowboyBebop';
+import OnePiece from './PageForShows/OnePiece';
+import SailorMoon from './PageForShows/SailorMoon';
+import Sakura from './PageForShows/Sakura';
+import That70sShow from './PageForShows/That70sShow';
+import Friends from './PageForShows/Friends';
+import FamilyMatters from './PageForShows/FamilyMatters';
+import FreshPrince from './PageForShows/FreshPrince';
+import Sistersister from './PageForShows/Sistersister';
 
 
 
@@ -60,6 +70,11 @@ function App() {
             <Route path="/games/streetFighter2" element={<StreetFighter2/>}/>
             <Route path="/games/mortalKombat3" element={<MortalKombat3/>}/>
             <Route path="/games/legendOfZeldaMinishCap" element={<ZeldaMinishCap/>}/>
+            <Route path="/Anime/DragonBallZ" element={<DragonBallZ/>}/>
+            <Route path="/Anime/CowboyBebop" element={<CowboyBebop/>}/>
+            <Route path="/Anime/OnePiece" element={<OnePiece/>}/>
+            <Route path="/Anime/SailorMoon" element={<SailorMoon />}/>
+
 
 
             <Route path="shows" element={<ShowPage />} />

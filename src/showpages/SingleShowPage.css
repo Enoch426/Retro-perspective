@@ -1,0 +1,40 @@
+
+
+.single-background{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.imgur.com/rEjy9Y0.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40em;
+  padding-left: 30px;
+       
+}
+
+
+.title{
+    color: white;
+    padding-left: 20px;
+    
+}
+
+.single-info-box{
+    display: flex;
+    padding-top: 10em ;
+  
+}
+
+.right-side-info{
+    padding: 10px;
+   
+} 
+
+
+.show-img{
+    width: 15em;
+}
+
+.video-frame{
+    margin-top: 9em;
+    margin-left: 25em;
+}
