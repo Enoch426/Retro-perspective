@@ -3,6 +3,7 @@ import MainHeader from '../MainHeader';
 import './Games.css';
 import Box from '../components/Box';
 // import MegamanPage from '../GamesPages/MegamanPage';
+import '../App.css';
 
 
 import {

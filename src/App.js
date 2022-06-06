@@ -45,6 +45,7 @@ function App() {
 
 
 
+            <Route path="/shows" element={<ShowPage />} />
 
             <Route path="/games" element={<Games/>} />
             <Route path="/games/megaman" element={<MegamanPage/>} />
