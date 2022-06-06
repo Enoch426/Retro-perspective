@@ -7,6 +7,12 @@ import {
   Link
 } from 'react-router-dom';
 
+import OverviewGames from './components/OverviewGames';
+import Home from './pages/Home';
+import Games from './pages/Games';
+import ShowPage from './showpages/ShowPage';
+
+
 
 class Header extends React.Component {
 
@@ -44,6 +50,7 @@ class Header extends React.Component {
       </div>
   </div>
  </nav>
+
  
         
         
