@@ -37,6 +37,11 @@
     padding-bottom: -20px;
     font-size: 2em;
     font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.bottom-footer{
+    text-align: center;
 }
 
 .Footer-link-date{

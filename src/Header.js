@@ -12,6 +12,7 @@ import {
 import OverviewGames from './components/OverviewGames';
 import Home from './pages/Home';
 import Games from './pages/Games';
+import ShowPage from './showpages/ShowPage';
 
 
 class Header extends React.Component {
@@ -56,7 +57,7 @@ class Header extends React.Component {
           
            <Route path="/" element={<Home />} />
 
-          <Route path="/shows" element={<OverviewGames/>} />
+          <Route path="/shows" element={<ShowPage />} />
 
            <Route path="/games" element={<Games />} />
 
