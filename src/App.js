@@ -1,26 +1,72 @@
 import './App.css';
 // import MainHeader from './MainHeader';
 import Header from './Header';
+import Home from './pages/Home';
 // import OverviewShows from './components/OverviewShows';
 // import OverviewAnime from './components/OverviewAnime';
 // import OverviewHeader from './components/OverviewHeader';
 // import 'bootstrap/dist/css/bootstrap.css';
 // import OverviewGames from './components/OverviewGames';
 import Footer from './components/Footer';
+// import Shows from './components/Shows';
+import Games from './pages/Games';
+import MegamanPage from './GamesPages/MegamanPage';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  BrowserRouter
+} from 'react-router-dom';
+import Sonic2 from './GamesPages/Sonic2';
+import SuperMarioWorld from './GamesPages/SuperMarioWorld';
+import SuperMetroid from './GamesPages/SuperMetroid';
+import ZAMN from './GamesPages/ZAMN';
+import Galaga from './GamesPages/Galaga';
+import Tetris from './GamesPages/Tetris';
+import PokemonFireRed from './GamesPages/PokemonFireRed';
+import Contra from './GamesPages/Contra';
+import StreetFighter2 from './GamesPages/StreetFighter2';
+import MortalKombat3 from './GamesPages/MortalKombat3';
+import ZeldaMinishCap from './GamesPages/ZeldaMinishCap';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Footer/>
+        <BrowserRouter>
+          <Header className='Header'/>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            {/* <Route path="/shows" element={<Shows/>} /> */}
 
 
-      
-      
-      
-      
+
+
+            <Route path="/games" element={<Games/>} />
+            <Route path="/games/megaman" element={<MegamanPage/>} />
+            <Route path="/games/sonic2" element={<Sonic2/>}/>
+            <Route path="/games/superMario" element={<SuperMarioWorld/>}/>
+            <Route path="/games/superMetroid" element={<SuperMetroid/>}/>
+            <Route path="/games/contra" element={<Contra/>}/>
+            <Route path="/games/zombiesAteMyNeighbor" element={<ZAMN/>}/>
+            <Route path="/games/galaga" element={<Galaga/>}/>
+            <Route path="/games/tetris" element={<Tetris/>}/>
+            <Route path="/games/pokemonFireRed" element={<PokemonFireRed/>}/>
+            <Route path="/games/streetFighter2" element={<StreetFighter2/>}/>
+            <Route path="/games/mortalKombat3" element={<MortalKombat3/>}/>
+            <Route path="/games/legendOfZeldaMinishCap" element={<ZeldaMinishCap/>}/>
+
+
+
+
+
+
+          </Routes>
+          <Footer/>
+        </BrowserRouter>
     </div>
   );
 }

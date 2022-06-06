@@ -1,0 +1,28 @@
+.bodyGames{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://wallpaperaccess.com/full/782955.jpg);
+    background-size:cover ;
+}
+
+#outerdiv
+{
+width:149vh;
+height:100vh;
+overflow:hidden;
+position:relative;
+}
+
+.inneriframe
+{
+
+position:absolute;
+top:-550px;
+left:-175px;
+width:1400px;
+height:1000px;
+margin-left: 7em;
+margin-top: 14.9em;
+
+}
+
