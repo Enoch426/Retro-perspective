@@ -17,7 +17,7 @@ class Games extends React.Component {
 
     render(){
         return (
-            <div>
+            <div className='videoBackground'>
               <MainHeader
               backgroundimgclass="grid"
               backgroundimg="https://images.nintendolife.com/1560ca8db4c46/1280x720.jpg"
