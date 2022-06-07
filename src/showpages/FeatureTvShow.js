@@ -32,11 +32,11 @@ class FeatureTvShow extends React.Component {
                 <div>
                   <div className='featured-show-row'>
                             <div className='featured-show-box'>
-                                <img src="https://i.imgur.com/Zx1LoTY.png" alt="" />
+                            <Link to="/Anime/CowboyBebop">  <img src="https://i.imgur.com/Zx1LoTY.png" alt="" /> </Link>
                             </div>
                             
                             <div className='featured-show-box'>
-                                <img src="https://i.imgur.com/if0Di39.png" alt="" />
+                            <Link to="/Anime/SailorMoon"> <img src="https://i.imgur.com/if0Di39.png" alt="" /> </Link>
                             </div>
                             
                             
@@ -44,11 +44,11 @@ class FeatureTvShow extends React.Component {
 
                   <div className='featured-show-row'>
                            <div className='featured-show-box'>
-                                <img src="https://i.imgur.com/tFYaGBy.png" alt="" />
+                           <Link to="/Anime/OnePiece">   <img src="https://i.imgur.com/tFYaGBy.png" alt="" /> </Link>
                             </div>
                             
                             <div className='featured-show-box'>
-                            <img src="https://i.imgur.com/bReosOL.jpg" alt="" />
+                            <Link to="/Anime/Sakura"> <img src="https://i.imgur.com/bReosOL.jpg" alt="" /> </Link>
                             </div>
                               
                   </div>    

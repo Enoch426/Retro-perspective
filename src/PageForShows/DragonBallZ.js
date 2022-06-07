@@ -14,7 +14,8 @@ class DragonBallZ extends React.Component {
         
 
         <SingleShowPage 
-        showImg = "https://i.imgur.com/ypnH5yC.png"
+        backclass = "dbz-back"
+        VideoLink = "https://www.youtube.com/embed/mAm0JAnk6bg"
         />
 
 

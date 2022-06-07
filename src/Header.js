@@ -31,20 +31,19 @@ class Header extends React.Component {
           <ul className="navbar-nav ms-auto">
           <Link to='/shows'> <li className="nav-item"><a class="nav-link" href="#about">Shows</a></li></Link>
           <Link to='/games'><li className="nav-item"><a class="nav-link" href="#projects">Games</a></li></Link>
-           {/*<Link to='/more'>*/}<li className="nav-item"><a class="nav-link" href="#signup">Comics</a></li>{/*</Link>*/}
           </ul>
           
 
           
 
-                <div className="form">
+                {/* <div className="form">
                   <i className="fa fa-search"></i>
                   <div className='flex'>
                   <input type="text" class="form-control form-input" placeholder="Search anything..."/>
                   <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                   </div>
                   <span className="left-pan"><i class="fa fa-microphone"></i></span>
-                </div>
+                </div> */}
 
 
       </div>
