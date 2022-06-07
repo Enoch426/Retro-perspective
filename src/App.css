@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+a{
+  text-decoration: none !important;
+  font-family: 'Bebas Neue', cursive !important; 
+}
+
+p{
+  font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive !important; 
+}
 
 .App{
   text-align: center ;
+  
 }
 
 @media screen and (max-device-width: 400px) {
