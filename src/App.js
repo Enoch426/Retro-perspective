@@ -74,6 +74,7 @@ function App() {
             <Route path="/Anime/CowboyBebop" element={<CowboyBebop/>}/>
             <Route path="/Anime/OnePiece" element={<OnePiece/>}/>
             <Route path="/Anime/SailorMoon" element={<SailorMoon />}/>
+            <Route path="/Anime/Sakura" element={<Sakura />}/>
 
 
 
