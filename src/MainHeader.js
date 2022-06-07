@@ -15,6 +15,7 @@ class MainHeader extends React.Component {
   <img src={this.props.backgroundimg}/>
   <img src={this.props.backgroundimg1}/>
   <img src={this.props.backgroundimg2}/>
+  
 
     
     

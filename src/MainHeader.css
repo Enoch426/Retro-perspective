@@ -1,9 +1,18 @@
 
   .blocker{
     height: 100vh;
-    background-image: url("DQB.gif");
+    background-image: url("https://i.imgur.com/Ar9kCpe.gif");
     background-size: cover;
 }
+
+/* .main-title{
+  color: white;
+   margin-top: 640px;
+  margin-left: 50px;
+  text-align: left; 
+  font-size: 100px;
+  
+} */
 
 
 
