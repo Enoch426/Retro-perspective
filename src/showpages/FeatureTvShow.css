@@ -8,7 +8,11 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     padding-left: 20px;
+
+    padding-top: 2em;
+=======
     text-align: left;
+
 }
 
 
@@ -19,6 +23,8 @@
  align-content: center;
  display: grid;
  grid-template-columns: 1fr 1fr;
+ padding-bottom: 2em;
+ background-color: #0E1B2E;
 
 }
 
