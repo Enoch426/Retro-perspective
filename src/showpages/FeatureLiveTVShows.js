@@ -15,14 +15,14 @@ class FeatureLiveTvShows extends React.Component {
     return (
       <div>
         
-        <div> <p className="featured-title"> {this.props.title1} </p> </div>
+        <div> <p className="featured-title"> Sitcoms </p> </div>
 
         <div className='featured-box'>
                 
                 
                 <div>
                     <div className='first-featured-show'>
-                        <img src={this.props.show1} alt="" />
+                        <img src="https://i.imgur.com/9iqYVaA.png" alt="" />
                     </div>
                 </div>
                 
@@ -32,11 +32,11 @@ class FeatureLiveTvShows extends React.Component {
                 <div>
                   <div className='featured-show-row'>
                             <div className='featured-show-box'>
-                                <img src={this.props.show2} alt="" />
+                                <img src="https://i.imgur.com/o3XWaoR.png" alt="" />
                             </div>
                             
                             <div className='featured-show-box'>
-                                <img src={this.props.show3} alt="" />
+                                <img src="https://i.imgur.com/mAHUdPz.png" alt="" />
                             </div>
                             
                             
@@ -44,11 +44,11 @@ class FeatureLiveTvShows extends React.Component {
 
                   <div className='featured-show-row'>
                            <div className='featured-show-box'>
-                                <img src={this.props.show4} alt="" />
+                                <img src="https://i.imgur.com/9EvV0XU.png" alt="" />
                             </div>
                             
                             <div className='featured-show-box'>
-                            <img src={this.props.show5} alt="" />
+                            <img src="https://i.imgur.com/s8w6ELv.jpg" alt="" />
                             </div>
                               
                   </div>    

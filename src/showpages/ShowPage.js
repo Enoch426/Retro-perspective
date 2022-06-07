@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import MainHeader from '../MainHeader';
 import TvHeader from './TvHeader';
 import FeatureTvShow from './FeatureTvShow';
+import FeatureLiveTvShows from './FeatureLiveTVShows';
 
 class ShowPage extends React.Component {
 
@@ -15,6 +16,8 @@ class ShowPage extends React.Component {
          backgroundimgclass="showHead"
       />
       <FeatureTvShow />
+
+      <FeatureLiveTvShows />
 
 
 
